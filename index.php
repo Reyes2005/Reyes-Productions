@@ -1,7 +1,6 @@
 <?php
 require('Required/requirements.php');
 include('Required/head.php');
-$current_page='index';
 ?>
 <body bgcolor="white" text="blue">
 <H1><center><?php echo $syte; ?></center></H1>

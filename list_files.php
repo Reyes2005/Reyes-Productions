@@ -1,7 +1,6 @@
 <?php
 require('Required/requirements.php');
 include('Required/head.php');
-$current_page='list';
 $file_list=scandir($path);
 $list='<table border="1px" align="center">
 <tr>

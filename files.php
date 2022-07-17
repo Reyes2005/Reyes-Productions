@@ -3,7 +3,6 @@ require('Required/requirements.php');
 $filename=$_FILES['filename']['name'];
 $type=$_FILES['filename']['type'];
 $size=$_FILES['filename']['size'];
-$current_page='files';
 include('Required/head.php');
 if(empty($filename) or $size>104857600 or $type!='audio/mpeg'){
 echo '<p>Error: No se pudo subir el archivo porque pesa más de 100 mb, no es un archivo mp3 o intentaste enviar un archivo con nombre vacío, intenta subirlo otra vez.</p>
