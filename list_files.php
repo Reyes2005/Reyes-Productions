@@ -13,6 +13,7 @@ if($value!='.' and $value!='..') $list.='<tr>
 <td><a href="'.$path.'/'.$value.'">Reproducir</a></td>
 </tr>';
 }
+$list.='</table>';
 ?>
 <body bgcolor="white" text="blue">
 <H1><center><?php echo $syte; ?></center></H1>
@@ -22,6 +23,7 @@ if($value!='.' and $value!='..') $list.='<tr>
 <hr>
 <?php
 echo $list;
+include('Required/footer.php');
 ?>
 </body>
 </html>
