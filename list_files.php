@@ -25,5 +25,3 @@ $list.='</table>';
 echo $list;
 include('Required/footer.php');
 ?>
-</body>
-</html>
