@@ -5,7 +5,7 @@ $file_list=scandir($path);
 $list='<table border="1px" align="center">
 <tr>
 <td>Nombre del archivo.</td>
-<td>Descargar</td>
+<td>Descargar/reproducir.</td>
 </tr>';
 foreach($file_list as $value){
 if($value!='.' and $value!='..') $list.='<tr>
@@ -25,5 +25,3 @@ $list.='</table>';
 echo $list;
 include('Required/footer.php');
 ?>
-</body>
-</html>
